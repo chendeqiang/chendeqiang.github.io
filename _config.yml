@@ -1,8 +1,7 @@
 # Site settings
 title: Yokee
-<<<<<<< HEAD
-email: keshuixiansheng@126.com
-description: 懦怯囚禁人的灵魂，希望可以令你感受自由。强者自救，圣者渡人。
+email: gkeshuixiansheng@126.com
+description: Yokee的博客 安卓爱好者
 # > # this means to ignore newlines until "baseurl:"
 #   Write an awesome description for your new site here. You can edit this
 #   line in _config.yml. It will appear in your document head meta (for
@@ -13,68 +12,12 @@ description: 懦怯囚禁人的灵魂，希望可以令你感受自由。强者�
 # twitter_username: jekyllrb
 github_username:  chendeqiang
 permalink: /:year/:month/:day/:title/
-=======
-description: Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
-cover: assets/images/radhakrishna.jpg
-logo: assets/images/logo.png
-favicon: assets/images/favicon.png
-baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
-url: "https://samanyougarg.com" # the base hostname & protocol for your site
-paginate:	5 # The number of posts to show per page on your homepage
-
-# Social
-facebook: facebook
-twitter: twitter
-github:  github
-
-#Additional Pages
-about: about
-contact: contact
-privacy-policy: privacy-policy
-
-
-permalink: /:title
-
-
-# Google Analytics
-analytics_id: ""
->>>>>>> 001fa5fe8fe0035e4314d345b225661900d2d563
 
 # Build settings
 markdown: kramdown
 
-<<<<<<< HEAD
 # highlight
 # 本地用rouge, github上用pygments
 # highlighter: pygments
 # highlighter: rouge
 # highlighter: false
-=======
-kramdown:
-  parse_block_html: true
-
-plugins:
-  - jekyll-paginate
-
-
-# Settings for rake task
-safe: False
-lsi: False
-username: samanyougarg #github username
-repo: hanuman #github repository
-branch: master #branch
-relative_source: ../hanuman/ #source directory
-destination: ../hanuman-pages/ #destination directory
-production_url:  https://samanyougarg.com/
-source_url:  https://github.com/chendeqiang #source repository url
-
-exclude:
-  - README.md
-  - Rakefile
-  - Gemfile
-  - Gemfile.lock
-  - changelog.md
-  - "*.Rmd"
-  - vendor
-  - .travis.yml
->>>>>>> 001fa5fe8fe0035e4314d345b225661900d2d563
