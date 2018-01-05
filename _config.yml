@@ -1,4 +1,5 @@
 # Site settings
+<<<<<<< HEAD
 title: Lorem Ipsum - Web Developer
 description: "A blog about lorem ipsum ..."
 baseurl: "/space-jekyll-template" # for test: remove string '/space-jekyll-template' to ''
@@ -14,12 +15,28 @@ gplus_username:  loremipsum
 linkedin_public_url: loremipsum # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
 disqus_username: loremipsum
 profile_picture: https://68.media.tumblr.com/93f384858e9273d5b980b418e2f2f4d5/tumblr_o5i2aybLJG1uapsfmo2_250.png
+=======
+title: Yokee
+email: keshuixiansheng@126.com
+description: Yokee的博客 安卓爱好者
+# > # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
+
+# baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username:  chendeqiang
+permalink: /:year/:month/:day/:title/
+>>>>>>> 0d947b1edd6c5e418455c6fec424034ab598d7c5
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
 
+<<<<<<< HEAD
 # html minify
 compress_html:
   clippings: all
@@ -68,3 +85,10 @@ projects:
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
+=======
+# highlight
+# 本地用rouge, github上用pygments
+# highlighter: pygments
+# highlighter: rouge
+# highlighter: false
+>>>>>>> 0d947b1edd6c5e418455c6fec424034ab598d7c5
