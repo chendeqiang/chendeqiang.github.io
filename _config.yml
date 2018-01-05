@@ -1,4 +1,5 @@
 # Site settings
+<<<<<<< HEAD
 name: John Smith
 description: "Nifty little description"
 url: ""
@@ -34,18 +35,49 @@ avatar: yes
 # You can link to your GitHub image. That way it will get updated
 # automatically whenever you change your GitHub profile picture
 avatar_img_path: "https://avatars2.githubusercontent.com/u/17301305"
+=======
+title: Lorem Ipsum - Web Developer
+description: "A blog about lorem ipsum ..."
+baseurl: "/space-jekyll-template" # for test: remove string '/space-jekyll-template' to ''
+url: "http://victorvoid.github.io/space-jekyll-template/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+
+# User settings
+username: lorem ipsum
+user_title: Lorem Ipsum - FrontEnd
+email: lorem.lorem@ipsum.com
+twitter_username: loremipsum
+github_username:  loremipsum
+gplus_username:  loremipsum
+linkedin_public_url: loremipsum # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
+disqus_username: loremipsum
+profile_picture: https://68.media.tumblr.com/93f384858e9273d5b980b418e2f2f4d5/tumblr_o5i2aybLJG1uapsfmo2_250.png
+>>>>>>> f9b3503117c020e6a45c3ed6f1065f21759a9383
 
 
+<<<<<<< HEAD
 front_img: yes
 front_img_path: "imgs/background.jpg"
 #front_img_path: "https://external.url/image.jpg"
+=======
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+>>>>>>> f9b3503117c020e6a45c3ed6f1065f21759a9383
 
 
 favicon_img: yes
 favicon_img_path: "imgs/favicon.ico"
 #favicon_img_path: "https://external.url/favicon.ico"
 
+<<<<<<< HEAD
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+=======
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
+>>>>>>> f9b3503117c020e6a45c3ed6f1065f21759a9383
